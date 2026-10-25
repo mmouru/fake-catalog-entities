@@ -1,0 +1,2032 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-hex-1
+  description: Discover the bat-like agility of our Table, perfect for unlined users
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-pci-2
+  description: The white Table combines Israel aesthetics with Gallium-based durability
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-hdd-3
+  description: Professional-grade Chair perfect for long-term training and recreational use
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sms-4
+  description: Experience the plum brilliance of our Bacon, perfect for subtle environments
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-thx-5
+  description: The purple Bike combines Andorra aesthetics with Boron-based durability
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-scsi-6
+  description: Featuring Hydrogen-enhanced technology, our Fish offers unparalleled unlucky performance
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-json-7
+  description: Experience the red brilliance of our Hat, perfect for intent environments
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-hdd-8
+  description: New Chips model with 51 GB RAM, 591 GB storage, and feline features
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-jbod-9
+  description: Savor the savory essence in our Soap, designed for sinful culinary adventures
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ocr-10
+  description: Discover the flawed new Chair with an exciting mix of Aluminum ingredients
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-scsi-11
+  description: Innovative Pants featuring watery technology and Wooden construction
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sas-12
+  description: Ergonomic Salad made with Rubber for all-day insecure support
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-css-13
+  description: Introducing the France-inspired Gloves, blending good-natured style with local craftsmanship
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-json-14
+  description: Stylish Chicken designed to make you stand out with fatal looks
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sdd-15
+  description: New lavender Table with ergonomic design for inexperienced comfort
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sms-16
+  description: Innovative Towels featuring friendly technology and Steel construction
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-scsi-17
+  description: Innovative Salad featuring cheerful technology and Ceramic construction
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-xml-18
+  description: Discover the cow-like agility of our Mouse, perfect for exotic users
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-jbod-19
+  description: Experience the mint green brilliance of our Bike, perfect for exhausted environments
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ftp-20
+  description: New Cheese model with 24 GB RAM, 293 GB storage, and needy features
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-jbod-21
+  description: Introducing the Palau-inspired Bike, blending colorful style with local craftsmanship
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sdd-22
+  description: Experience the silver brilliance of our Fish, perfect for tattered environments
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-pci-23
+  description: New Car model with 35 GB RAM, 703 GB storage, and creative features
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-jbod-24
+  description: Stylish Soap designed to make you stand out with whirlwind looks
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-png-25
+  description: Professional-grade Computer perfect for jubilant training and recreational use
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-usb-26
+  description: Parker - McCullough's most advanced Bike technology increases wonderful capabilities
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-tls-27
+  description: Stylish Pizza designed to make you stand out with numb looks
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-udp-28
+  description: Our delicious-inspired Chips brings a taste of luxury to your enlightened lifestyle
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ascii-29
+  description: Discover the metallic new Chicken with an exciting mix of Bamboo ingredients
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ascii-30
+  description: Stylish Shirt designed to make you stand out with unrealistic looks
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-json-31
+  description: Savor the crunchy essence in our Tuna, designed for liquid culinary adventures
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ib-32
+  description: Our fresh-inspired Pizza brings a taste of luxury to your thorny lifestyle
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-png-33
+  description: Discover the hamster-like agility of our Keyboard, perfect for foolish users
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-tls-34
+  description: Professional-grade Mouse perfect for caring training and recreational use
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ftp-35
+  description: Champlin - Kreiger's most advanced Sausages technology increases shiny capabilities
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-hdd-36
+  description: Introducing the Malaysia-inspired Shirt, blending bulky style with local craftsmanship
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-http-37
+  description: Modern Keyboard designed with Bamboo for sore performance
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-dns-38
+  description: Innovative Chair featuring muddy technology and Aluminum construction
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-tcp-39
+  description: Emmerich, Schulist and Cruickshank's most advanced Hat technology increases tired capabilities
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-xss-40
+  description: Stylish Pants designed to make you stand out with mean looks
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-xss-41
+  description: Innovative Sausages featuring pointed technology and Silk construction
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-png-42
+  description: Discover the glossy new Towels with an exciting mix of Plastic ingredients
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ai-43
+  description: New sky blue Chicken with ergonomic design for authentic comfort
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-tls-44
+  description: Our parrot-friendly Chips ensures grumpy comfort for your pets
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sas-45
+  description: The silver Bike combines Republic of Korea aesthetics with Vanadium-based durability
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-hdd-46
+  description: New Pizza model with 27 GB RAM, 703 GB storage, and blind features
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-exe-47
+  description: Hermiston - Erdman's most advanced Car technology increases orderly capabilities
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ai-48
+  description: The Cleveland Chicken is the latest in a series of wide products from Wolff and Sons
+spec:
+  owner: infra-team
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-usb-49
+  description: Discover the vengeful new Tuna with an exciting mix of Cotton ingredients
+spec:
+  owner: infra-team
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-com-50
+  description: Discover the snake-like agility of our Ball, perfect for lone users
+spec:
+  owner: infra-team
+  type: service
+  lifecycle: experimental
+---
+# This file contains 50 Backstage Component entities
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-http-1
+  description: Stylish Cheese designed to make you stand out with tangible looks
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-thx-2
+  description: The purple Chips combines Sri Lanka aesthetics with Hafnium-based durability
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-dram-3
+  description: Innovative Hat featuring hoarse technology and Ceramic construction
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-dram-4
+  description: Ergonomic Tuna made with Ceramic for all-day uncomfortable support
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sql-5
+  description: The Fanny Salad is the latest in a series of mushy products from Langosh - Hahn
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-xss-6
+  description: New sky blue Gloves with ergonomic design for decent comfort
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-xss-7
+  description: New indigo Pizza with ergonomic design for well-lit comfort
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ram-8
+  description: The Willis Fish is the latest in a series of honored products from Will LLC
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ssd-9
+  description: The Elliott Chips is the latest in a series of deep products from Hodkiewicz LLC
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-gb-10
+  description: Discover the distant new Car with an exciting mix of Ceramic ingredients
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ip-11
+  description: Discover the realistic new Chair with an exciting mix of Concrete ingredients
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-pci-12
+  description: Featuring Zirconium-enhanced technology, our Mouse offers unparalleled vengeful performance
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-pci-13
+  description: Ergonomic Mouse made with Rubber for all-day trim support
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ram-14
+  description: Quitzon - Koch's most advanced Bacon technology increases instructive capabilities
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-api-15
+  description: Our horse-friendly Bike ensures staid comfort for your pets
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-http-16
+  description: Experience the olive brilliance of our Gloves, perfect for late environments
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-agp-17
+  description: Our crunchy-inspired Keyboard brings a taste of luxury to your discrete lifestyle
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-png-18
+  description: New Salad model with 82 GB RAM, 395 GB storage, and sunny features
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-usb-19
+  description: Our delicious-inspired Ball brings a taste of luxury to your uncomfortable lifestyle
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-vga-20
+  description: The sleek and wasteful Chips comes with white LED lighting for smart functionality
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-dns-21
+  description: Discover the ostrich-like agility of our Fish, perfect for mean users
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ocr-22
+  description: Little - Monahan's most advanced Ball technology increases interesting capabilities
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sql-23
+  description: Our ostrich-friendly Salad ensures possible comfort for your pets
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-gb-24
+  description: Professional-grade Chair perfect for sophisticated training and recreational use
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ib-25
+  description: The Optimized client-driven algorithm Keyboard offers reliable performance and whimsical design
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-png-26
+  description: Stylish Car designed to make you stand out with lost looks
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-http-27
+  description: The red Salad combines Equatorial Guinea aesthetics with Iron-based durability
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ip-28
+  description: The cyan Pants combines Bonaire, Sint Eustatius and Saba aesthetics with Gold-based durability
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-http-29
+  description: The Sustainable heuristic solution Pizza offers reliable performance and weary design
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-sms-30
+  description: Stylish Keyboard designed to make you stand out with bitter looks
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ip-31
+  description: Stylish Soap designed to make you stand out with insidious looks
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ib-32
+  description: Professional-grade Keyboard perfect for tattered training and recreational use
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-css-33
+  description: Our cow-friendly Salad ensures shoddy comfort for your pets
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-adp-34
+  description: Featuring Krypton-enhanced technology, our Computer offers unparalleled judicious performance
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-dram-35
+  description: Savor the sweet essence in our Bike, designed for meager culinary adventures
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ocr-36
+  description: Discover the penguin-like agility of our Tuna, perfect for cooperative users
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-png-37
+  description: Innovative Ball featuring boiling technology and Ceramic construction
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-api-38
+  description: Discover the impeccable new Chicken with an exciting mix of Aluminum ingredients
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-agp-39
+  description: The Kale Table is the latest in a series of tidy products from Dare - McCullough
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-usb-40
+  description: Discover the penguin-like agility of our Gloves, perfect for common users
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-udp-41
+  description: The Advanced dedicated circuit Bike offers reliable performance and proud design
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-thx-42
+  description: Waelchi, Homenick and Batz's most advanced Towels technology increases thorough capabilities
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-tcp-43
+  description: Our smoky-inspired Computer brings a taste of luxury to your steep lifestyle
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-tls-44
+  description: The Tyson Cheese is the latest in a series of realistic products from Parisian Group
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-thx-45
+  description: Our crunchy-inspired Ball brings a taste of luxury to your accomplished lifestyle
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-com-46
+  description: Discover the muted new Cheese with an exciting mix of Ceramic ingredients
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: library
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-dram-47
+  description: Discover the french new Fish with an exciting mix of Bamboo ingredients
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ssd-48
+  description: The Bryana Chicken is the latest in a series of homely products from MacGyver LLC
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ssd-49
+  description: Introducing the Aland Islands-inspired Tuna, blending emotional style with local craftsmanship
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: service
+  lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-ocr-50
+  description: New plum Chips with ergonomic design for agile comfort
+  annotations:
+    foo/bar: baz
+spec:
+  owner: observability
+  type: website
+  lifecycle: experimental
+---
+# This file contains 15 Backstage Group entities
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-jbod-1
+  description: Schneider - Kunde's most advanced Chicken technology increases our capabilities
+spec:
+  type: team
+  profile:
+    displayName: example-jbod-1 Team
+    email: example-jbod-1@example.com
+    picture: https://example.com/avatar/example-jbod-1.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-exe-2
+  description: Featuring Chlorine-enhanced technology, our Keyboard offers unparalleled surprised performance
+spec:
+  type: team
+  profile:
+    displayName: example-exe-2 Team
+    email: example-exe-2@example.com
+    picture: https://example.com/avatar/example-exe-2.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-xss-3
+  description: Discover the hippopotamus-like agility of our Bike, perfect for immense users
+spec:
+  type: team
+  profile:
+    displayName: example-xss-3 Team
+    email: example-xss-3@example.com
+    picture: https://example.com/avatar/example-xss-3.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-api-4
+  description: Our fox-friendly Fish ensures grimy comfort for your pets
+spec:
+  type: team
+  profile:
+    displayName: example-api-4 Team
+    email: example-api-4@example.com
+    picture: https://example.com/avatar/example-api-4.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-ssd-5
+  description: Innovative Mouse featuring unsteady technology and Cotton construction
+spec:
+  type: team
+  profile:
+    displayName: example-ssd-5 Team
+    email: example-ssd-5@example.com
+    picture: https://example.com/avatar/example-ssd-5.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-agp-6
+  description: Discover the coarse new Hat with an exciting mix of Granite ingredients
+spec:
+  type: team
+  profile:
+    displayName: example-agp-6 Team
+    email: example-agp-6@example.com
+    picture: https://example.com/avatar/example-agp-6.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-tcp-7
+  description: Savor the fresh essence in our Chicken, designed for whispered culinary adventures
+spec:
+  type: team
+  profile:
+    displayName: example-tcp-7 Team
+    email: example-tcp-7@example.com
+    picture: https://example.com/avatar/example-tcp-7.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-adp-8
+  description: Our polar bear-friendly Bacon ensures silky comfort for your pets
+spec:
+  type: team
+  profile:
+    displayName: example-adp-8 Team
+    email: example-adp-8@example.com
+    picture: https://example.com/avatar/example-adp-8.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-com-9
+  description: The Allene Pizza is the latest in a series of fussy products from Dickinson, Boyle and Lebsack
+spec:
+  type: team
+  profile:
+    displayName: example-com-9 Team
+    email: example-com-9@example.com
+    picture: https://example.com/avatar/example-com-9.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-ssd-10
+  description: Bespoke Bacon designed with Marble for spanish performance
+spec:
+  type: team
+  profile:
+    displayName: example-ssd-10 Team
+    email: example-ssd-10@example.com
+    picture: https://example.com/avatar/example-ssd-10.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-ib-11
+  description: Discover the tiny new Soap with an exciting mix of Silk ingredients
+spec:
+  type: team
+  profile:
+    displayName: example-ib-11 Team
+    email: example-ib-11@example.com
+    picture: https://example.com/avatar/example-ib-11.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-jbod-12
+  description: Licensed Car designed with Silk for closed performance
+spec:
+  type: team
+  profile:
+    displayName: example-jbod-12 Team
+    email: example-jbod-12@example.com
+    picture: https://example.com/avatar/example-jbod-12.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-com-13
+  description: Innovative Pizza featuring unsung technology and Gold construction
+spec:
+  type: team
+  profile:
+    displayName: example-com-13 Team
+    email: example-com-13@example.com
+    picture: https://example.com/avatar/example-com-13.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-thx-14
+  description: Featuring Arsenic-enhanced technology, our Table offers unparalleled jaunty performance
+spec:
+  type: team
+  profile:
+    displayName: example-thx-14 Team
+    email: example-thx-14@example.com
+    picture: https://example.com/avatar/example-thx-14.png
+  parent: team-a
+  children: []
+  members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: example-agp-15
+  description: The Compatible optimizing structure Table offers reliable performance and miserly design
+spec:
+  type: team
+  profile:
+    displayName: example-agp-15 Team
+    email: example-agp-15@example.com
+    picture: https://example.com/avatar/example-agp-15.png
+  parent: team-a
+  children: []
+  members: []
+---
+# This file contains 44 Backstage User entities
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-orin-hauck-1
+  description: Introducing the Tanzania-inspired Bacon, blending unwritten style with local craftsmanship
+spec:
+  profile:
+    displayName: Inez Farrell
+    email: example-orin-hauck-1@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-erling-oberbrunner-2
+  description: Ergonomic Mouse made with Silk for all-day interesting support
+spec:
+  profile:
+    displayName: Guy Hodkiewicz DDS
+    email: example-erling-oberbrunner-2@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-elody-davis-3
+  description: New Soap model with 73 GB RAM, 350 GB storage, and sturdy features
+spec:
+  profile:
+    displayName: Sheldon Steuber
+    email: example-elody-davis-3@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-keegan-gislason-4
+  description: The Bernie Computer is the latest in a series of same products from Wisozk, O'Kon and Langosh
+spec:
+  profile:
+    displayName: Regina Nader
+    email: example-keegan-gislason-4@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-theo-dach-5
+  description: The Crystel Bike is the latest in a series of diligent products from Mayert, Pfeffer and Borer
+spec:
+  profile:
+    displayName: Lula Abernathy Sr.
+    email: example-theo-dach-5@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-lea-ebert-6
+  description: The green Towels combines Svalbard & Jan Mayen Islands aesthetics with Neptunium-based durability
+spec:
+  profile:
+    displayName: Rolando Herzog
+    email: example-lea-ebert-6@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-claud-hilll-7
+  description: New Tuna model with 59 GB RAM, 56 GB storage, and submissive features
+spec:
+  profile:
+    displayName: Kelley Tremblay
+    email: example-claud-hilll-7@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-garnet-parker-8
+  description: Introducing the Oman-inspired Mouse, blending shrill style with local craftsmanship
+spec:
+  profile:
+    displayName: Felix Walter
+    email: example-garnet-parker-8@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-brett-hodkiewicz-9
+  description: The sleek and untidy Bike comes with blue LED lighting for smart functionality
+spec:
+  profile:
+    displayName: Gilbert Braun DDS
+    email: example-brett-hodkiewicz-9@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-obie-pollich-10
+  description: Experience the magenta brilliance of our Table, perfect for bustling environments
+spec:
+  profile:
+    displayName: Natalie Larson DDS
+    email: example-obie-pollich-10@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-chris-mcglynn-11
+  description: Thiel Group's most advanced Gloves technology increases winding capabilities
+spec:
+  profile:
+    displayName: Christina O'Kon IV
+    email: example-chris-mcglynn-11@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-vidal-ryan-12
+  description: Discover the physical new Chair with an exciting mix of Metal ingredients
+spec:
+  profile:
+    displayName: Elizabeth McGlynn IV
+    email: example-vidal-ryan-12@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-karen-paucek-13
+  description: Introducing the Guyana-inspired Car, blending fussy style with local craftsmanship
+spec:
+  profile:
+    displayName: Lela Kling
+    email: example-karen-paucek-13@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-brycen-okuneva-14
+  description: Savor the moist essence in our Bacon, designed for those culinary adventures
+spec:
+  profile:
+    displayName: Colin Effertz
+    email: example-brycen-okuneva-14@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-madge-hirthe-15
+  description: Experience the green brilliance of our Mouse, perfect for accomplished environments
+spec:
+  profile:
+    displayName: Timothy Howell
+    email: example-madge-hirthe-15@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-marilou-davis-16
+  description: Discover the kangaroo-like agility of our Car, perfect for tense users
+spec:
+  profile:
+    displayName: Kara Goyette
+    email: example-marilou-davis-16@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-etha-schowalter-17
+  description: Discover the cat-like agility of our Chair, perfect for low users
+spec:
+  profile:
+    displayName: Rosa Kunde
+    email: example-etha-schowalter-17@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-zaria-schmidt-18
+  description: Innovative Towels featuring uncomfortable technology and Wooden construction
+spec:
+  profile:
+    displayName: Marsha Green
+    email: example-zaria-schmidt-18@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-donnell-kerluke-19
+  description: The sleek and cuddly Shoes comes with silver LED lighting for smart functionality
+spec:
+  profile:
+    displayName: Dr. Mike Fay
+    email: example-donnell-kerluke-19@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-velma-labadie-20
+  description: Fisher, Rolfson and Ernser's most advanced Hat technology increases harmful capabilities
+spec:
+  profile:
+    displayName: Lynda Cole
+    email: example-velma-labadie-20@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-taya-bauch-21
+  description: Discover the bare new Tuna with an exciting mix of Bronze ingredients
+spec:
+  profile:
+    displayName: Lance Olson
+    email: example-taya-bauch-21@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-raven-casper-22
+  description: Our lion-friendly Towels ensures gloomy comfort for your pets
+spec:
+  profile:
+    displayName: Anthony Emmerich
+    email: example-raven-casper-22@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-tessie-haag-dicki-23
+  description: Our sea lion-friendly Bike ensures burly comfort for your pets
+spec:
+  profile:
+    displayName: Rudy Green
+    email: example-tessie-haag-dicki-23@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-giovanny-kuhn-24
+  description: The User-centric discrete initiative Cheese offers reliable performance and qualified design
+spec:
+  profile:
+    displayName: Paulette Spinka
+    email: example-giovanny-kuhn-24@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-beth-dicki-25
+  description: Professional-grade Pizza perfect for worst training and recreational use
+spec:
+  profile:
+    displayName: Dr. Alejandro Nikolaus
+    email: example-beth-dicki-25@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-porter-rippin-26
+  description: Stylish Shoes designed to make you stand out with these looks
+spec:
+  profile:
+    displayName: Mr. Kyle Bernhard V
+    email: example-porter-rippin-26@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-harry-donnelly-27
+  description: The sleek and grave Shirt comes with fuchsia LED lighting for smart functionality
+spec:
+  profile:
+    displayName: Adam Reynolds
+    email: example-harry-donnelly-27@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-therese-kovacek-28
+  description: New turquoise Chicken with ergonomic design for ripe comfort
+spec:
+  profile:
+    displayName: Mr. Homer Mertz
+    email: example-therese-kovacek-28@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-sven-emmerich-29
+  description: Our squirrel-friendly Chair ensures internal comfort for your pets
+spec:
+  profile:
+    displayName: Jose McGlynn
+    email: example-sven-emmerich-29@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-tyler-welch-30
+  description: New indigo Shoes with ergonomic design for portly comfort
+spec:
+  profile:
+    displayName: Shaun Nicolas
+    email: example-tyler-welch-30@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-anais-williamson-31
+  description: Innovative Soap featuring bright technology and Granite construction
+spec:
+  profile:
+    displayName: Alexandra O'Connell-Hand
+    email: example-anais-williamson-31@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-tre-hahn-32
+  description: Incredible Chips designed with Bronze for acclaimed performance
+spec:
+  profile:
+    displayName: Caleb Hilll
+    email: example-tre-hahn-32@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-bertha-hirthe-33
+  description: Savor the spicy essence in our Gloves, designed for jittery culinary adventures
+spec:
+  profile:
+    displayName: Dr. Dallas Jerde
+    email: example-bertha-hirthe-33@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-sigmund-kshlerin-34
+  description: The Cydney Keyboard is the latest in a series of animated products from Corwin, Moen and Ratke
+spec:
+  profile:
+    displayName: David Breitenberg PhD
+    email: example-sigmund-kshlerin-34@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-krista-borer-35
+  description: Discover the koala-like agility of our Cheese, perfect for criminal users
+spec:
+  profile:
+    displayName: Melissa Emard-Ryan
+    email: example-krista-borer-35@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-eden-conn-36
+  description: Featuring Copper-enhanced technology, our Pizza offers unparalleled lumbering performance
+spec:
+  profile:
+    displayName: Joey Dickinson
+    email: example-eden-conn-36@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-jerrell-kozey-37
+  description: Weimann Inc's most advanced Cheese technology increases whispered capabilities
+spec:
+  profile:
+    displayName: Alison Reichel
+    email: example-jerrell-kozey-37@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-coty-howell-38
+  description: The Jaydon Keyboard is the latest in a series of unconscious products from Vandervort - Casper
+spec:
+  profile:
+    displayName: Bethany Gusikowski-Reynolds PhD
+    email: example-coty-howell-38@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-pat-batz-39
+  description: The sleek and heartfelt Pizza comes with fuchsia LED lighting for smart functionality
+spec:
+  profile:
+    displayName: Courtney Lesch
+    email: example-pat-batz-39@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-hudson-konopelski-40
+  description: Professional-grade Gloves perfect for reflecting training and recreational use
+spec:
+  profile:
+    displayName: Brett Cronin
+    email: example-hudson-konopelski-40@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-phyllis-ebert-41
+  description: New Shirt model with 9 GB RAM, 466 GB storage, and clumsy features
+spec:
+  profile:
+    displayName: Joseph Powlowski
+    email: example-phyllis-ebert-41@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-rex-quitzon-42
+  description: Professional-grade Chicken perfect for pink training and recreational use
+spec:
+  profile:
+    displayName: Clara Pagac
+    email: example-rex-quitzon-42@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-christelle-hahn-43
+  description: Our eagle-friendly Soap ensures tired comfort for your pets
+spec:
+  profile:
+    displayName: Larry Boehm
+    email: example-christelle-hahn-43@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-clemens-graham-44
+  description: Innovative Keyboard featuring foolish technology and Steel construction
+spec:
+  profile:
+    displayName: Miss Penny Schamberger-Schulist
+    email: example-clemens-graham-44@example.com
+    picture: https://avatars.githubusercontent.com/u/55416270
+  memberOf: []
+---
+# This file contains 5 Backstage API entities
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-hex-1
+  description: Savor the spicy essence in our Towels, designed for vague culinary adventures
+spec:
+  owner: observability
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-hex-1
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-pci-2
+  description: Featuring Copper-enhanced technology, our Soap offers unparalleled hairy performance
+spec:
+  owner: observability
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-pci-2
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-ai-3
+  description: Stylish Shirt designed to make you stand out with unusual looks
+spec:
+  owner: observability
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-ai-3
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-tls-4
+  description: Professional-grade Chips perfect for whirlwind training and recreational use
+spec:
+  owner: observability
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-tls-4
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-udp-5
+  description: Innovative Mouse featuring junior technology and Granite construction
+spec:
+  owner: observability
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-udp-5
+      license:
+        name: MIT
+---
+# This file contains 5 Backstage API entities
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-smtp-1
+  description: Introducing the Japan-inspired Computer, blending glass style with local craftsmanship
+spec:
+  owner: infra
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-smtp-1
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-pci-2
+  description: Savor the juicy essence in our Car, designed for mealy culinary adventures
+spec:
+  owner: infra
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-pci-2
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-ssl-3
+  description: Handmade Shirt designed with Steel for private performance
+spec:
+  owner: infra
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-ssl-3
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-css-4
+  description: Professional-grade Bacon perfect for impure training and recreational use
+spec:
+  owner: infra
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-css-4
+      license:
+        name: MIT
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-udp-5
+  description: Innovative Chips featuring blind technology and Concrete construction
+spec:
+  owner: infra
+  type: openapi
+  lifecycle: production
+  definition: |-
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: example-udp-5
+      license:
+        name: MIT
