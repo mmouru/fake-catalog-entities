@@ -1,23 +1,55 @@
 apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: storefront
+  description: Customer-facing web storefront and checkout flows
+  annotations:
+    pagerduty.com/service-id: PSTORE01
+spec:
+  owner: group:payments
+  domain: e-commerce
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: fulfillment
+  description: Order processing, inventory, and logistics orchestration
+spec:
+  owner: group:logistics
+  domain: e-commerce
+---
+
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-hex-1
   description: Discover the bat-like agility of our Table, perfect for unlined users
+  annotations:
+    pagerduty.com/service-id: PABC123
 spec:
   owner: infra-team
   type: service
   lifecycle: experimental
+  system: storefront
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-pci-2
   description: The white Table combines Israel aesthetics with Gallium-based durability
+  annotations:
+    pagerduty.com/service-id: PDEF456
 spec:
   owner: infra-team
   type: service
   lifecycle: experimental
+  system: storefront
+  dependsOn:
+    - component:example-hex-1
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -28,17 +60,27 @@ spec:
   owner: infra-team
   type: website
   lifecycle: experimental
+  system: storefront
+  dependsOn:
+    - component:example-pci-2
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-sms-4
   description: Experience the plum brilliance of our Bacon, perfect for subtle environments
+  annotations:
+    pagerduty.com/service-id: PGHI789
 spec:
   owner: infra-team
   type: website
   lifecycle: experimental
+  system: storefront
+  dependsOn:
+    - component:example-hdd-3
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -48,28 +90,44 @@ spec:
   owner: infra-team
   type: library
   lifecycle: experimental
+  system: storefront
+  dependsOn:
+    - component:example-sms-4
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-scsi-6
   description: Featuring Hydrogen-enhanced technology, our Fish offers unparalleled
     unlucky performance
+  annotations:
+    pagerduty.com/service-id: PJKL012
 spec:
   owner: infra-team
   type: service
   lifecycle: experimental
+  system: fulfillment
+  dependsOn:
+    - component:example-hex-1
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-json-7
   description: Experience the red brilliance of our Hat, perfect for intent environments
+  annotations:
+    pagerduty.com/service-id: PMNO345
 spec:
   owner: infra-team
   type: website
   lifecycle: experimental
+  system: fulfillment
+  dependsOn:
+    - component:example-scsi-6
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -79,7 +137,11 @@ spec:
   owner: infra-team
   type: website
   lifecycle: experimental
+  system: fulfillment
+  dependsOn:
+    - component:example-json-7
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -90,17 +152,27 @@ spec:
   owner: infra-team
   type: library
   lifecycle: experimental
+  system: fulfillment
+  dependsOn:
+    - component:example-hdd-8
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-ocr-10
   description: Discover the flawed new Chair with an exciting mix of Aluminum ingredients
+  annotations:
+    pagerduty.com/service-id: PTUV901
 spec:
   owner: infra-team
   type: website
   lifecycle: experimental
+  system: fulfillment
+  dependsOn:
+    - component:example-jbod-9
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -117,6 +189,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -133,6 +206,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -149,6 +223,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -164,6 +239,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -179,6 +255,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -194,6 +271,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -210,6 +288,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -225,6 +304,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -241,6 +321,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -256,6 +337,7 @@ spec:
   children: []
   members: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -269,6 +351,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -281,6 +364,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -293,6 +377,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -306,6 +391,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -319,6 +405,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -332,6 +419,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -344,6 +432,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -357,6 +446,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -369,6 +459,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -382,6 +473,7 @@ spec:
     picture: https://avatars.githubusercontent.com/u/55416270
   memberOf: []
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -395,6 +487,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-hex-1\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -408,6 +501,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-pci-2\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -420,6 +514,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-ai-3\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -433,6 +528,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-tls-4\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -445,6 +541,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-udp-5\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -458,6 +555,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-smtp-1\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -470,6 +568,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-pci-2\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -482,6 +581,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-ssl-3\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -495,6 +595,7 @@ spec:
   definition: "openapi: \"3.0.0\"\ninfo:\n  version: 1.0.0\n  title: example-css-4\n\
     \  license:\n    name: MIT"
 ---
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
